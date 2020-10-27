@@ -1,0 +1,32 @@
+{
+  "name": "a-e-com",
+  "version": "1.0.0",
+  "description": "MERN Building Software",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon backend/server -q",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masudfeni301/A-E-COM-Project.git"
+  },
+  "author": "Nurul Anwar Masud",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/masudfeni301/A-E-COM-Project/issues"
+  },
+  "homepage": "https://github.com/masudfeni301/A-E-COM-Project#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}

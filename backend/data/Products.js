@@ -1,4 +1,4 @@
-export const products = [
+const products = [
     {_id:'1',
     name:'Conion Rice Cooker BE 28B60',
     image:'/images/rice-cook-1.jpg',
@@ -37,3 +37,4 @@ export const products = [
     numReviews:22}
 ];
 
+export default products;
